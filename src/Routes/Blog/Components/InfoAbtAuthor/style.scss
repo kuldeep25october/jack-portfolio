@@ -1,0 +1,27 @@
+.InfoAboutAuthor{
+    padding: 0px 40px;
+    background-color: #01ff56;
+    p{
+        font-family: Shippori Mincho;
+        font-size: 35px;
+        text-align: center;
+        padding: 11rem;
+        padding-bottom: 2rem;
+        padding-top: 6rem;
+    }
+    .BorderBottom{
+        border-bottom: 1px solid #15030333;
+    }
+}
+@media screen and (max-width:767px) {
+    .InfoAboutAuthor{
+        padding: unset;
+        p{
+           font-size: 23px;
+           padding: unset;
+           margin-top: 1rem;
+           padding: 40px 30px;
+            line-height: 1.3;
+        }
+    }
+}

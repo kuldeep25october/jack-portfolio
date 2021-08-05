@@ -1,0 +1,26 @@
+.ContactContainer{
+    background-color: #5AFF80;
+    position: relative;
+    height: 350px;
+    h2{
+        font-family: Shippori Mincho;
+        font-size: 70px;
+        position: absolute;
+        left: 4rem;
+        top: 8rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .ContactContainer{
+        background-color: #5AFF80;
+        position: relative;
+        height: 250px;
+        h2{
+            font-family: Shippori Mincho;
+            font-size: 45px;
+            position: absolute;
+            left: 1rem;
+            top: 6rem;
+        }
+    }
+}

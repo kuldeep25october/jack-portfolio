@@ -1,0 +1,26 @@
+.PortfolioContainer{
+    background-color: #5AFF80;
+    position: relative;
+    height: 350px;
+    h2{
+        font-family: Shippori Mincho;
+        font-size: 70px;
+        position: absolute;
+        left: 4rem;
+        top: 8rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .PortfolioContainer{
+        background-color: #5AFF80;
+        position: relative;
+        height: 250px;
+        h2{
+            font-family: Shippori Mincho;
+            font-size: 50px;
+            position: absolute;
+            left: 2rem;
+            top: 6rem;
+        }
+    }
+}

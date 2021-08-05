@@ -1,0 +1,60 @@
+.education{
+    overflow: hidden;
+    padding: 0 40px;
+    h1{
+    font-family: "Shippori Mincho";
+    font-size: 65px;
+    line-height: 1.3;
+    padding-top: 7rem;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    }
+    .ant-card{
+        position: relative;
+        left: 8rem;
+        .ant-card-body{
+            border-top: 1px solid #15030333;
+            margin-bottom: 2rem;
+        h2{
+                margin-top: 2rem;
+                margin-bottom: 1rem;
+                font-weight: 400;
+                font-size: 30px;
+                font-family: "Shippori Mincho",serif;
+                line-height: 1.2;
+                letter-spacing: 1px;
+            }
+            p{
+                font-weight: 300;
+                font-size: 16px;
+                margin-bottom: 1rem;  
+                line-height: 1.4;
+            }
+        }
+    }
+    .BorderBottom{
+        border-bottom: 1px solid #15030333;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .education{
+        padding: 0px 10px;
+        padding-top: 4rem;
+        h1{
+            font-size: 40px;
+            padding: 0px;
+        }
+        .ant-card{
+            left: 0px;
+            .ant-card-body{
+                h2{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

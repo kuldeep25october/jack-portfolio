@@ -1,0 +1,31 @@
+.BackToTop{
+    background: #01ff56;
+    height: 40px;
+    width: 40px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 3px rgba(108,98,98,.2);
+    cursor: pointer;
+    .WrapContainer{
+        position: relative;
+        .ArrowContainer{
+            position: absolute;
+            bottom: -15px;
+            right: 7px;
+            .Arrow{
+                padding: 7px;
+                box-shadow: 2px -2px #150303 inset;
+                transform: rotate(130deg);
+                position: absolute;
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .BackToTop{
+        display: none;
+    }
+}
