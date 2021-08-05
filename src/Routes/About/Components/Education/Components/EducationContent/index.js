@@ -11,7 +11,7 @@ const Education = (props) => {
                             <h2>{props.skill}</h2>
                             <p>{props.duration}</p>
                             <p>{props.para}</p>
-                        </div>                        
+                        </div>
                     </Col>
                 </Row>
             </div>

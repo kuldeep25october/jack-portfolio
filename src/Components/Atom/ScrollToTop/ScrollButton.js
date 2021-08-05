@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import './style.scss';
 
-
 class ScrollToTop extends Component {
     constructor(props) {
         super(props);

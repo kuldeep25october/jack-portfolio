@@ -7,21 +7,21 @@ import Experience from './Components/Experience';
 import Education from './Components/Education';
 import Carousel from './Components/Carousel';
 
-class Home extends React.Component{
-    render(){
-        return(
+class Home extends React.Component {
+    render() {
+        return (
             <>
-            <Pages
-               showHeader
-               showFooter
-            >
-              <AboutAuthor />   
-              <AboutMyself />   
-              <MyExpertise />
-              <Experience />
-              <Education />
-              <Carousel/>
-            </Pages>
+                <Pages
+                    showHeader
+                    showFooter
+                >
+                    <AboutAuthor />
+                    <AboutMyself />
+                    <MyExpertise />
+                    <Experience />
+                    <Education />
+                    <Carousel />
+                </Pages>
             </>
         )
     }

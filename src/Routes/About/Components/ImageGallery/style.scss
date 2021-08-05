@@ -1,41 +1,36 @@
-.ImgGalry{
-    overflow: hidden;
-    background-color: #01FF56;
-   img{
-       width: 100% !important;
-       height: 100% !important;
-   }
-   .authorIntro{
-       padding: 0px 40px;
-       p{
-        text-align: center;
-    margin-top: 7rem;
-    font-size: 40px;
-    padding: 0 125px;
-    font-family: Shippori Mincho;
-    margin-bottom: 2rem;
-        
-       }
-       .BorderBottom{
-        border-bottom: 1px solid #15030333;
-      
-       }
-   }
+.ImgGalry {
+  overflow: hidden;
+  background-color: #01ff56;
+  img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .authorIntro {
+    padding: 0px 40px;
+    p {
+      text-align: center;
+      margin-top: 7rem;
+      font-size: 40px;
+      padding: 0 125px;
+      font-family: Shippori Mincho;
+      margin-bottom: 2rem;
+    }
+    .BorderBottom {
+      border-bottom: 1px solid #15030333;
+    }
+  }
 }
 @media screen and (max-width: 767px) {
-    .ImgGalry{
-        .authorIntro{
-            padding: 0px 10px;
-
-            p{
-                font-size: 25px;
-                padding: 40px 0px;
-                margin: unset;
-                padding-left: unset;
-                padding-right: unset;
-            }
-
-        }
+  .ImgGalry {
+    .authorIntro {
+      padding: 0px 10px;
+      p {
+        font-size: 25px;
+        padding: 40px 0px;
+        margin: unset;
+        padding-left: unset;
+        padding-right: unset;
+      }
     }
-    
+  }
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import {Col} from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 
-const Experience =(props)=>{
-    return(
-    <>
-    <div className='ant-card'>
+const Experience = (props) => {
+    return (
+        <>
+            <div className='ant-card'>
                 <Col lg='10'>
                     <div className="ant-card-body">
                         <h2>{props.skill}</h2>
@@ -12,10 +12,10 @@ const Experience =(props)=>{
                         <p id='para'>{props.para}</p>
                         <div>
                         </div>
-                </div>
+                    </div>
                 </Col>
-                </div>
-    </>
+            </div>
+        </>
     )
 }
 export default Experience;

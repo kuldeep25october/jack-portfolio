@@ -3,7 +3,6 @@ import React from 'react'
 import Header from '../../Molecules/Header/index'
 import Footer from '../../Molecules/Footer/index'
 
-
 const Content = Layout
 const Pages = (props) => {
     return (
@@ -11,7 +10,7 @@ const Pages = (props) => {
             <Layout>
                 {
                     props.showHeader &&
-                    
+
                     <Header />
                 }
 
@@ -22,10 +21,10 @@ const Pages = (props) => {
                 </Content>
                 {
                     props.showFooter &&
-                    
+
                     <Footer />
                 }
-                
+
             </Layout>
         </>
     )

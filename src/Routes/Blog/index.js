@@ -12,9 +12,9 @@ class Blog extends React.Component {
                     showHeader
                     showFooter
                 >
-                    <AboutBlog/>
-                    <LatestBlog/>
-                    <InfoAbtAuthor/>
+                    <AboutBlog />
+                    <LatestBlog />
+                    <InfoAbtAuthor />
                 </Pages>
             </>
         )

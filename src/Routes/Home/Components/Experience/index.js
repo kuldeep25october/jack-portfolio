@@ -27,7 +27,6 @@ const ExperienceContent = () => {
                                     para_1={val.para_1}
                                     para_2={val.para_2}
                                     icon={val.icon}
-                                    
                                 />
                             )
                         })

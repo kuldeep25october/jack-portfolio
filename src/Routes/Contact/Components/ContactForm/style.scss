@@ -1,110 +1,110 @@
-.CntctForm{
-    padding: 0px 60px;
-    padding-top: 20px;
-    h2{
-        font-family: "Shippori Mincho",serif;
-        font-size: 23px !important;
-        margin-bottom: 20px;
+.CntctForm {
+  padding: 0px 60px;
+  padding-top: 20px;
+  h2 {
+    font-family: "Shippori Mincho", serif;
+    font-size: 23px !important;
+    margin-bottom: 20px;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px 0px 0px 18px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #000;
+    border: 1px solid #e5e6e9;
+  }
+  textarea::placeholder {
+    color: #d7d8db;
+  }
+  textarea:focus {
+    outline: 0;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #e5e6e9;
+    font-size: 13px;
+    color: #000;
+  }
+  input::placeholder {
+    color: #d7d8db;
+  }
+  input:focus {
+    outline: 0;
+  }
+  input[type="button"] {
+    width: 15%;
+    border: 1px solid #01ff56;
+    border-radius: unset;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: unset !important;
+    font-size: 15px;
+    font-family: "Shippori Mincho", serif;
+    letter-spacing: 1px;
+    background-color: unset;
+    color: #01ff56;
+    height: 50px;
+    &:hover {
+      color: #fff;
+      background-color: #01ff56;
     }
-    textarea{
-        width: 100%;
-        height: 150px;
-        padding: 15px 0px 0px 18px;
-        margin-bottom: 30px;
-        font-size: 13px;
-        color: #000;
-        border: 1px solid #e5e6e9;
+  }
+  .ContactInfo {
+    margin-bottom: 20px;
+    margin-left: 60px;
+    span {
+      svg {
+        margin-right: 20px;
+        color: #8f9195;
+        font-size: 40px;
+      }
     }
-    textarea::placeholder{
-        color: #d7d8db;
+    h3 {
+      font-size: 17px;
+      font-family: "Shippori Mincho", serif;
     }
-    textarea:focus{
-        outline: 0;
+    p {
+      color: #8a8a8a;
+      font-family: "Chivo", sans-serif;
+      font-size: 15px;
+      line-height: 30px;
+      margin-bottom: 40px;
+      line-height: 1.4;
     }
-    input{
-        width: 100%;
-        margin-bottom: 30px;
-        padding-left: 15px;
-        height: 45px;
-        border-radius: 5px;
-        border: 1px solid #e5e6e9;
-        font-size: 13px;
-        color: #000;
-    }
-    input::placeholder{
-        color: #d7d8db;
-    }
-    input:focus{
-        outline: 0;
-    }
-    input[type='button']{
-        width: 15%;
-        border: 1px solid #01ff56;
-        border-radius: unset;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-        padding: unset !important;
-        font-size: 15px;
-        font-family: "Shippori Mincho",serif;
-        letter-spacing: 1px;
-        background-color: unset;
-        color: #01ff56;
-        height: 50px;
-        &:hover{
-            color: #fff;
-            background-color: #01ff56;
-        }
-    }
-    .ContactInfo{
-        margin-bottom: 20px;
-        margin-left: 60px;
-        span{
-            svg{
-                margin-right: 20px;
-            color: #8f9195;
-            font-size: 40px;
-    }
-        }
-        h3{
-            font-size: 17px;
-            font-family: "Shippori Mincho",serif;
-        }
-        p{
-            color: #8a8a8a;
-            font-family: "Chivo",sans-serif;
-            font-size: 15px;
-            line-height: 30px;
-            margin-bottom: 40px;
-            line-height: 1.4;
-        }
-    }
+  }
 }
-@media screen and (max-width:767px) {
-    .CntctForm{
-        padding: 0px 10px;
-        padding-top: 60px;
-        h2{
-          font-size: 25px;  
-        }
-        textarea:focus{
-            outline: 0;
-        }
-        input{
-            height: 45px;
-            border-radius: unset;  
-        }
-        input[type='button']{
-            margin-top: 1rem;
-            width: 35%;
-        }
-        .ContactInfo{
-            margin-left: unset;
-            p{
-                font-size: 15px;
-            }
-            h3{
-                font-size: 17px;
-            }
-        }
+@media screen and (max-width: 767px) {
+  .CntctForm {
+    padding: 0px 10px;
+    padding-top: 60px;
+    h2 {
+      font-size: 25px;
     }
+    textarea:focus {
+      outline: 0;
+    }
+    input {
+      height: 45px;
+      border-radius: unset;
+    }
+    input[type="button"] {
+      margin-top: 1rem;
+      width: 35%;
+    }
+    .ContactInfo {
+      margin-left: unset;
+      p {
+        font-size: 15px;
+      }
+      h3 {
+        font-size: 17px;
+      }
+    }
+  }
 }

@@ -3,9 +3,9 @@ import './style.scss';
 import Slider from './Components/SlideDataItems/index'
 
 const Carousel = () => {
-    return(
+    return (
         <>
-        <Slider/>
+            <Slider />
         </>
     )
 }

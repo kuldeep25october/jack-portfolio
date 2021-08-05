@@ -6,7 +6,7 @@ const MyExpertise = () => {
     return (
         <>
             <div className='myExpertise'>
-               <h2>My Expertise</h2>
+                <h2>My Expertise</h2>
                 <Row>
                     <Col lg='6'>
                         <div className='myExpertiseList'>

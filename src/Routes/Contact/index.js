@@ -13,7 +13,7 @@ class Contact extends React.Component {
                     showHeader
                     showFooter
                 >
-                    <AboutContact/>
+                    <AboutContact />
                     <ContactMap />
                     <ContactForm />
                     <AuthorBio />

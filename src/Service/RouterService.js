@@ -1,38 +1,31 @@
 let _browserHistory;
 
 const scrollToTop = () => {
-window.scrollTo({ top: 0 });
+    window.scrollTo({ top: 0 });
 }
-
-
 const setBrowserHistoryRef = ref => {
-_browserHistory = (ref || {}).history;
+    _browserHistory = (ref || {}).history;
 }
-
 const pushRoute = routeName => {
-_browserHistory.push(routeName);
-scrollToTop();
+    _browserHistory.push(routeName);
+    scrollToTop();
 }
-
 const redirect = routeName => {
-_browserHistory.redirect(routeName)
-scrollToTop();
+    _browserHistory.redirect(routeName)
+    scrollToTop();
 }
-
-
 const goBack = () => {
-_browserHistory.goBack();
-scrollToTop();
+    _browserHistory.goBack();
+    scrollToTop();
 }
-
 const goForward = () => {
-_browserHistory.goForward();
-scrollToTop();
+    _browserHistory.goForward();
+    scrollToTop();
 }
 export default {
-setBrowserHistoryRef,
-pushRoute,
-redirect,
-goForward,
-goBack,
+    setBrowserHistoryRef,
+    pushRoute,
+    redirect,
+    goForward,
+    goBack,
 };

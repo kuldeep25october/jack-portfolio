@@ -28,12 +28,12 @@ export default () => {
         perMove: 1,
         type: 'loop'
       }}>
-      {pictures.map(slide => (
-        <SplideSlide key={slide.src}>
+      {pictures.map(val => (
+        <SplideSlide>
           <div className='image'>
-            <ImagesIcon src={slide.img} />
+            <ImagesIcon src={val.img} />
             <div className='icon'>
-              {slide.icon}
+              {val.icon}
             </div>
           </div>
         </SplideSlide>

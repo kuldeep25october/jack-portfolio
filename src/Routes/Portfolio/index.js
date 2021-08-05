@@ -13,8 +13,8 @@ class Portfolio extends React.Component {
                     showFooter
                 >
                     <AboutPortfolio />
-                    <ImageGallery/>
-                    <IntroAbtAuthor/>
+                    <ImageGallery />
+                    <IntroAbtAuthor />
                 </Pages>
             </>
         )

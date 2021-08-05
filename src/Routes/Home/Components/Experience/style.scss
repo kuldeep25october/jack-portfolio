@@ -1,122 +1,114 @@
-.experience{
-    overflow: hidden;
-    padding: 0 40px;
-    margin-bottom: 50px;
-    h1{
+.experience {
+  overflow: hidden;
+  padding: 0 40px;
+  margin-bottom: 50px;
+  h1 {
     font-family: Shippori Mincho;
     font-size: 60px;
     line-height: 1.3;
     padding-top: 7rem;
     margin-bottom: 2rem;
     letter-spacing: 2px;
+  }
+  .ExperienceSubHeading {
+    margin-left: 100px;
+    border-top: 1px solid #15030333;
+    margin-top: 20px;
+    li {
+      position: relative;
+      h2 {
+        font-family: Shippori Mincho;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+        margin-top: 30px;
+      }
+      p {
+        font-family: chivo;
+        margin-bottom: 20px;
+      }
+      .float-right {
+        position: absolute;
+        top: -72px;
+        right: 0;
+        li {
+          position: relative;
+          p {
+            span {
+              color: #8a8a8a;
+              margin-right: 5px;
+              font-size: 20px;
+            }
+            span:nth-last-child(1) {
+              font-size: 22px !important;
+              color: #000;
+              svg {
+                margin-left: 10px;
+                font-size: 20px;
+                top: -3px;
+                position: relative;
+              }
+              &:hover {
+                color: #01ff56;
+                transition: all 0.3s ease-out 0s;
+              }
+            }
+          }
+        }
+      }
     }
-    .ExperienceSubHeading{
-        margin-left: 100px;
-        border-top: 1px solid #15030333;
-        margin-top: 20px;
-        
-         li{
-            position: relative;
-            h2{
-                font-family: Shippori Mincho;
-                line-height: 1.2;
-                letter-spacing: 1px;
-                margin-bottom: 25px;
-                margin-top: 30px;
-            }
-            p{
-                font-family: chivo;
-                margin-bottom: 20px;
-            }
-             .float-right{
-                position: absolute;
-                top: -72px;
-                right: 0;
-                 li{
-                     position: relative;
-                     p{
-                        span{
-                            color: #8a8a8a;
-                            margin-right: 5px;
-                            font-size: 20px;
-                        }
-                         span:nth-last-child(1) {
-                            font-size: 22px !important;
-                            color: #000;
-                          
-                           svg{
-                            margin-left: 10px;
-                            font-size: 20px;
-                            top: -3px;
-                            position: relative;
-                            
-                             }
-                             &:hover{
-                                color: #01FF56;
-                                transition: all .3s ease-out 0s;
-                            }
-                           }
-                     }
-                 }
-             }
-         }
-     }
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .experience{
-        h1{
-            font-size: 38px;
-        }
-        .ExperienceSubHeading{
-            margin-left: unset;
-             border-top: 1px solid #15030333;
-             margin-top: 20px;
-            
-             li{
-                position: relative;
-                h2{
-                    font-size: 17px;
-                    letter-spacing: unset;
-                }
-                p{
-                    font-family: chivo;
-                    margin-bottom: 20px;
-                }
-                 .float-right{
-                    position: absolute;
-                    top: -67px;
-                    right: 0;
-                     li{
-                         position: relative;
-                         p{
-                            span{
-                                color: #8a8a8a;
-                                margin-right: 5px;
-                                font-size: 18px;
-                            }
-                             span:nth-last-child(1) {
-                                font-size: 15px !important;
-                                color: #000;
-                              
-                               svg{
-                                margin-left: 10px;
-                                font-size: 15px;
-                                top: -3px;
-                                position: relative;
-                                
-                                 }
-                                 &:hover{
-                                    color: #01FF56;
-                                    transition: all .3s ease-out 0s;
-                                }
-                               }
-                         }
-                     }
-                 }
-             }
-         }
+  .experience {
+    h1 {
+      font-size: 38px;
     }
+    .ExperienceSubHeading {
+      margin-left: unset;
+      border-top: 1px solid #15030333;
+      margin-top: 20px;
+      li {
+        position: relative;
+        h2 {
+          font-size: 17px;
+          letter-spacing: unset;
+        }
+        p {
+          font-family: chivo;
+          margin-bottom: 20px;
+        }
+        .float-right {
+          position: absolute;
+          top: -67px;
+          right: 0;
+          li {
+            position: relative;
+            p {
+              span {
+                color: #8a8a8a;
+                margin-right: 5px;
+                font-size: 18px;
+              }
+              span:nth-last-child(1) {
+                font-size: 15px !important;
+                color: #000;
+                svg {
+                  margin-left: 10px;
+                  font-size: 15px;
+                  top: -3px;
+                  position: relative;
+                }
+                &:hover {
+                  color: #01ff56;
+                  transition: all 0.3s ease-out 0s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
-
-    

@@ -32,12 +32,9 @@ const ExperienceContent = () => {
             </div>
             <div className='vision-section'>
                 <Row>
-                {/* <div className='vision-section-img'> */}
                     <Col lg='7'>
-                   <ImagesIcon src={Images.visit_jpg}/>
-                    {/* </div> */}
+                        <ImagesIcon src={Images.visit_jpg} />
                     </Col>
-                    {/* </div> */}
                     <Col lg='5' position='relative'>
                         <h3>"I help creative entrepreneurs build better businesses, maximize productivity, and cultivate an engaged community.</h3>
                     </Col>
