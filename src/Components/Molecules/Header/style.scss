@@ -2,6 +2,7 @@
   padding: 0px 40px;
   border-bottom: 1px solid black;
   background: #5aff80;
+  
   .logo {
     img {
       margin-left: 30px !important;
@@ -10,17 +11,18 @@
   .main-nav {
     list-style: none;
     display: flex;
+    font-family: chivo;
     justify-content: center;
     font-size: 20px;
-    margin-top: -2.5rem;
+    margin-top: -43px;
     margin-left: 10rem;
+    margin-bottom: 14.5px;
     li {
       z-index: 1;
       a {
         padding: 18px 38px;
         border-left: 1px solid black;
         color: black;
-        //font-family: chivo;
         border-bottom: 1px solid;
         &:hover {
           cursor: pointer;
