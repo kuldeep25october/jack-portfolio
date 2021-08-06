@@ -6,7 +6,7 @@
   .ContactForm {
     margin-top: 4rem;
     p {
-      font-family: "Chivo", sans-serif;
+      font-family: chivo;
       color: #150303;
       font-size: 20px;
       font-weight: 400;
@@ -25,6 +25,9 @@
       }
       input::placeholder {
         color: #000;
+      }
+      textarea::placeholder {
+        opacity: 0.5;
       }
       input,
       textarea:focus {
@@ -56,7 +59,7 @@
     margin-top: 4rem;
     .AddressDetails {
       p {
-        font-family: "Chivo", sans-serif;
+        font-family: chivo;
         color: #150303;
         font-size: 20px;
         font-weight: 400;
@@ -67,14 +70,14 @@
         font-size: 18px;
         li {
           margin-bottom: 5px;
-          font-family: "Chivo";
+          font-family: chivo;
           font-weight: 100 !important;
         }
       }
       .mt-30 {
         margin-top: 30px;
         input {
-          font-family: "Chivo";
+          font-family: chivo;
           letter-spacing: 1px;
           font-size: 18px;
           border: 1px black solid;

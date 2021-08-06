@@ -17,7 +17,7 @@ const Footer = () => {
                                 <input type='text' placeholder='Your Name' /><br />
                                 <input type='text' placeholder='Email' /><br />
                                 <input type='text' placeholder='Subject' /><br />
-                                <textarea placeholder='Message' style={{ opacity: '0.5' }} rows="2" cols="3"></textarea>
+                                <textarea placeholder='Message' rows="2" cols="3"></textarea>
                                 <input type='button' value='Send Message' />
                             </div>
                         </div>
