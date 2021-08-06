@@ -59,6 +59,7 @@
             color: #999;
             float: left;
             text-decoration: none;
+            font-family: chivo;
             .anticon.anticon-user {
               svg {
                 position: relative;
@@ -109,6 +110,7 @@
           border: 1px;
           border-color: #f0e9ff;
           width: 68%;
+          font-family: chivo;
         }
         input[type="button"] {
           background: #01ff56;
@@ -117,6 +119,7 @@
           border-left: 0;
           cursor: pointer;
           color: #fff;
+          font-family: chivo;
         }
       }
       .CategorySection {
@@ -244,6 +247,7 @@
               color: #888;
               font-size: 12px;
               font-weight: 500;
+              font-family: chivo;
               &:hover {
                 color: #fff;
                 background-color: #01ff56;
@@ -311,6 +315,7 @@
             color: #999;
             padding-left: 20px;
             margin-bottom: 1rem;
+            font-family: chivo;
             &:focus {
               outline: 0;
             }
@@ -353,6 +358,7 @@
             color: #8a8a8a;
             border: 1px solid #f0e9ff;
             margin-right: 10px;
+            font-family: chivo;
             span {
               svg {
                 position: relative;
@@ -395,6 +401,7 @@
         p {
           font-size: 17px;
           margin-bottom: 25px;
+          font-family: chivo;
         }
       }
       .NxtPrvBtn {
